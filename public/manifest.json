@@ -1,0 +1,16 @@
+{
+  "short_name": "Julio Villalobo",
+  "name": "Julio Villalobo | AI Transformation & Product Leader",
+  "icons": [
+    {
+      "src": "/julio-villalobo-portfolio/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "start_url": "/julio-villalobo-portfolio/",
+  "scope": "/julio-villalobo-portfolio/",
+  "display": "standalone",
+  "theme_color": "#071522",
+  "background_color": "#071522"
+}
