@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">Bot Arbitraje</title>
+  <desc id="desc">Algorithmic trading and financial arbitrage bot symbol</desc>
+  <rect width="256" height="256" rx="56" fill="#0f172a"/>
+  <path d="M60 170 L105 125 L145 155 L196 90" fill="none" stroke="#38bdf8" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="165 90 196 90 196 121" fill="none" stroke="#38bdf8" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="60" cy="170" r="10" fill="#22c55e"/>
+  <circle cx="105" cy="125" r="10" fill="#22c55e"/>
+  <circle cx="145" cy="155" r="10" fill="#22c55e"/>
+  <circle cx="196" cy="90" r="10" fill="#22c55e"/>
+</svg>

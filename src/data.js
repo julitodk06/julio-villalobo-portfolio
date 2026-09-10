@@ -96,18 +96,38 @@ export const projects = [
     ]
   },
   {
+    name: "Bot de Arbitraje Financiero",
+    category: "High-Frequency Data & Algorithmic Trading",
+    status: "Production release v3.5",
+    image: "assets/botLogo.svg",
+    description:
+      "A high-fidelity financial scanner and deterministic arbitrage simulation engine (Direct & Multi-Leg Triangular) across Argentine crypto and fiat markets.",
+    evidence: [
+      "Deterministic graph cycle traversal (DFS) simulating multi-tier orderbooks with exact fee accounting",
+      "Real-time market feeds integrating Binance P2P/Spot, Bybit, and local CriptoYa exchange gateways",
+      "Fail-closed operational alerts, Telegram bot control interface, rate limiting, and structured JSON telemetry"
+    ],
+    stack: ["Python 3.11", "Asyncio", "Docker", "PostgreSQL", "Alembic", "Redis", "REST APIs", "Telegram API"],
+    links: [
+      {
+        label: "GitHub Repository",
+        url: "https://github.com/julitodk06/bot-arbitraje"
+      }
+    ]
+  },
+  {
     name: "Lexia Tokenization Platform",
-    category: "Institutional B2B RWA infrastructure",
-    status: "Phase 1 foundation",
+    category: "Institutional B2B RWA Infrastructure",
+    status: "Phase 1 & 2 Foundation",
     image: "assets/rwaLogo.svg",
     description:
-      "A private platform foundation for asset tokenization with strong tenant isolation, database enforcement and auditability.",
+      "An institutional asset tokenization backend platform featuring PostgreSQL Row-Level Security (RLS), multi-tenant isolation, and KYC/compliance verification boundaries.",
     evidence: [
-      "Modular-monolith architecture with clean bounded contexts",
-      "Application tenant context plus PostgreSQL Row-Level Security",
-      "Least-privilege database roles and append-only audit events"
+      "Modular-monolith backend architecture in NestJS with clean bounded contexts and strict tenant isolation",
+      "Database-enforced Row-Level Security (RLS) fail-closed policies with least-privilege roles",
+      "Immutable append-only audit event trails and deterministic chain-adapter decoupling"
     ],
-    stack: ["NestJS", "Next.js", "PostgreSQL", "Redis", "TypeORM", "Docker"],
+    stack: ["NestJS", "Next.js", "TypeScript", "PostgreSQL RLS", "Redis", "TypeORM", "Docker"],
     links: [
       {
         label: "Architecture case study",
