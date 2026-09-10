@@ -1,6 +1,6 @@
 export const profile = {
   name: "Julio Antonio Villalobo",
-  role: "AI Transformation & Product Leader",
+  role: "Full-Stack Web Developer",
   location: "Yerba Buena, Tucumán, Argentina",
   email: "juliov@lexiacode.com",
   links: {
@@ -76,23 +76,23 @@ export const capabilities = [
 export const projects = [
   {
     name: "LexiaCode OS",
-    category: "AI-enabled commercial operations",
+    category: "Full-Stack Operations & CRM Platform",
     status: "Private system",
     image: "assets/lexiacodeLogo.svg",
     description:
-      "A private CRM and commercial operations platform combining modular workflows, role-based controls and AI-assisted operations.",
+      "A full-stack modular CRM and commercial operations platform built with React, Node.js, Express, and Prisma ORM, featuring role-based access control and human-in-the-loop workflows.",
     evidence: [
-      "Modular operational workflows delivered through staged product, QA and security work",
-      "Human-in-the-loop approvals and role-based access controls",
-      "Security hardening, rate limiting, resilient integrations and regression coverage"
+      "Modular full-stack CRM architecture with SQLite (development) and PostgreSQL (production-ready)",
+      "Role-based access control (RBAC) middleware, JWT authentication, and structured approval gates",
+      "Security hardening with CORS restrictions, input sanitization, rate limiting, and automated Vitest regression suites"
     ],
-    stack: ["React", "Node.js", "Express", "Prisma", "SQLite", "Vite"],
+    stack: ["React 19", "TypeScript", "Node.js", "Express", "Prisma", "PostgreSQL", "SQLite", "Tailwind CSS"],
     links: [
       {
         label: "Architecture case study",
         url: "https://github.com/julitodk06/lexiacode-os-case-study"
       },
-      {label: "LexiaCode", url: "https://lexiacode.com"}
+      {label: "LexiaCode Production", url: "https://lexiacode.com"}
     ]
   },
   {
@@ -127,7 +127,7 @@ export const projects = [
       "Standardized project briefs and automated reporting",
       "Transformation and AI-adoption proposals for institutional and productive-sector needs"
     ],
-    stack: ["LLMs", "AI workflows", "APIs", "Reporting", "Risk controls"],
+    stack: ["Python", "LLMs", "AI workflows", "REST APIs", "Reporting"],
     links: [{label: "Fundatur", url: "https://fundacionfundatur.org"}]
   }
 ];
@@ -135,26 +135,26 @@ export const projects = [
 export const experience = [
   {
     period: "Jan 2023 - Present",
-    role: "Managing Director | Technology, AI & Product Lead",
+    role: "Full-Stack Web Developer & Technical Lead",
     organization: "LexiaCode",
     description:
-      "Lead product strategy, architecture and staged delivery for AI-enabled platforms, enterprise automation and RWA technology engagements.",
+      "Architect and ship production-ready web platforms, CRM systems, and automated workflows using Next.js, React, Node.js, and TypeScript.",
     outcomes: [
-      "Directed LexiaCode OS across product, QA and security workstreams.",
-      "Coordinated software engineering, legal, marketing and commercial work.",
-      "Structured preliminary RWA/tokenization concepts and technology roadmaps across natural-resource, tourism and real-estate opportunities."
+      "Engineered LexiaCode OS modular CRM platform using React, Node.js, Express, and Prisma ORM with role-based access control.",
+      "Deployed official LexiaCode platform (lexiacode.com) with 100% static export across 28 routes and automated CI/CD pipelines.",
+      "Built deterministic client-side interactive modules, automated Vitest test suites, and strict type-safety checks."
     ]
   },
   {
     period: "Mar 2021 - Present",
-    role: "Director of Innovation & Education",
+    role: "Web & IT Project Specialist",
     organization: "Fundacion Fundatur",
     description:
-      "Connect digital transformation, AI adoption and structured delivery with institutional and regional productive-sector needs.",
+      "Connect digital transformation, workflow automation and structured web platforms with institutional and regional productive-sector needs.",
     outcomes: [
-      "Developed tourism, innovation and regional-development proposals.",
-      "Prepared operational, financing and implementation frameworks for tourism and development initiatives.",
-      "Introduced standardized briefs, reporting and approval workflows."
+      "Created web portals, internal dashboards, and digital workflows to streamline operational communications.",
+      "Connected third-party REST APIs and automated recurring reporting pipelines using Python scripts.",
+      "Introduced standardized briefs, reporting and approval workflows across regional initiatives."
     ]
   }
 ];
